@@ -179,21 +179,6 @@
   background: #fff;
 }
 
-.mobile-nav-cta.MuiButton-root {
-  height: 48px;
-  margin-top: auto;
-  color: #fff;
-  background: var(--red);
-  border-radius: 999px;
-  font-family: var(--font-th);
-  font-size: 15px;
-  font-weight: 850;
-}
-
-.mobile-nav-cta.MuiButton-root:hover {
-  background: var(--red-dark);
-}
-
 .home-page {
   position: relative;
   min-height: 100svh;

@@ -76,9 +76,6 @@ export function Navbar({ activePage, onNavigate }: NavbarProps) {
             ))}
           </List>
 
-          <Button className="mobile-nav-cta" variant="contained" onClick={() => handleNavigate('menu')}>
-            ดูเมนูทั้งหมด
-          </Button>
         </div>
       </Drawer>
     </header>
