@@ -43,10 +43,6 @@ export function Navbar({ activePage, onNavigate }: NavbarProps) {
         ))}
       </nav>
 
-      <Button className="nav-cta" variant="contained" onClick={() => handleNavigate('menu')}>
-        ดูเมนู
-      </Button>
-
       <IconButton className="nav-menu-button" aria-label="เปิดเมนู" onClick={() => setMobileOpen(true)}>
         <MenuIcon />
       </IconButton>

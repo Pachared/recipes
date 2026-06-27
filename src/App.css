@@ -108,23 +108,6 @@
   background: #fff;
 }
 
-.nav-cta.MuiButton-root {
-  justify-self: end;
-  height: 44px;
-  padding: 0 22px;
-  color: #fff;
-  background: var(--red);
-  border-radius: 999px;
-  font-family: var(--font-th);
-  font-size: 14px;
-  font-weight: 850;
-  box-shadow: 0 14px 30px rgba(207, 32, 41, 0.38);
-}
-
-.nav-cta.MuiButton-root:hover {
-  background: var(--red-dark);
-}
-
 .nav-menu-button {
   display: none !important;
   justify-self: end;
@@ -646,8 +629,7 @@
 }
 
 @media (max-width: 768px) {
-  .nav-links,
-  .nav-cta {
+  .nav-links {
     display: none !important;
   }
 
